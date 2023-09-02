@@ -1,29 +1,29 @@
 #root {
-  /* max-width: 1280px; */
   width: 100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .Nav-bar {
   height: 50px;
-  /* width: 100%; */
+  width: 100%;
   background-color: black;
   color: white;
 }
 
-.Web-logo {}
+/* .Web-logo {} 
 
 .list-group-div {
   padding: 2rem;
 }
+*/
 
 .list-group {
   max-width: 1280px;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   cursor: pointer;
 }
+
 
 /* 
 .logo {

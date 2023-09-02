@@ -18,7 +18,7 @@ function ListGroup() {
                     </li>
                 ))}
             </ul>
-            <button>Click For More</button>
+            {/* <button className="More-btn">Click For More</button> */}
         </>
     )
 }
