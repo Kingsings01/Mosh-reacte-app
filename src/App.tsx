@@ -13,10 +13,12 @@ function App() {
   return (
     <>
       <NavBar />
+      <ListGroup items={items} heading="Cities"
+        onSelectItem={handleSelectItem}
+      />
       <Alert>
-        Hello <span>Kings</span>
+        Hello Kings
       </Alert>
-      <ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem} />
     </>
   )
 };
