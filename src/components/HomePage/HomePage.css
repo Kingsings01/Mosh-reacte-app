@@ -1,0 +1,228 @@
+.sectiion-hero {
+    width: 100%;
+    height: 115vh;
+    background-image: url(./images/Frontnow-AI-Header-hero.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 72px;
+    display: flex;
+  }
+  
+  .App-header {
+    background-color: rgb(0, 0, 0);
+    min-height: 12.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex;
+    margin-left: 35px;
+    z-index: 1000;
+    color: white;
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .App-logo {
+    height: 27px;
+    pointer-events: none;
+    margin-right: 35px;
+  }
+  
+  .Resources-btn {
+    background-color: black;
+    border: none;
+    color: rgba(255, 255, 255, 0.781);
+    font-weight: 300;
+    font-size: medium;
+    text-size-adjust: 40px;
+    cursor: pointer;
+    margin-right: 870px;
+    align-items: center;
+  }
+  
+  
+  .Demo-btn {
+    height: 47px;
+    width: 135px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(2, 71, 2);
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+    margin-right: 35px;
+  
+  }
+  
+  .App-body {
+    height: 100vh;
+    background-color: black;
+    padding-top: 15%;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+  }
+  
+  
+  .Engage-div {
+    /* color: #2fff00; */
+    color: white;
+    letter-spacing: .1rem;
+    background-color: #003d00;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-family: CY,sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+  }
+  
+  .Enterprise-div {
+    margin: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .Long-p {
+    margin-left: 200px;
+    width: 900px;
+    color: rgba(255, 255, 255, 0.781);
+  }
+  
+  
+  .StartNow-btn {
+    background-color: rgb(2, 71, 2);
+    color: rgb(0, 255, 0);
+    height: 50px;
+    width: 120px;
+    font-size: medium;
+    text-align: center;
+    border: 1px;
+    /* border-color: white; */
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .Green-line {
+    width: 100%;
+    height: 2px;
+    background-color: #2fff00;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #2fff00, rgba(255, 255, 255, 0));
+    margin-top: 50px;
+    color: black;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  _______________________________
+  text-align: center;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(#fff,#919191 67%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      padding-bottom: 1rem;
+  }
+  @media screen and (max-width: 767px)
+  h1 {
+      font-size: 1.875em;
+  }
+  @media screen and (max-width: 991px)
+  h1 {
+      font-size: 3em;
+  }
+  h1 {
+      color: #fff;
+      letter-spacing: .025rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: CY,sans-serif;
+      font-size: 3.125em;
+      font-weight: 500;
+      line-height: 1.1;
+  }
+  h1 {
+      margin-top: 20px;
+      font-size: 38px;
+      line-height: 44px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 10px;
+      font-weight: 700;
+  }
+  h1 {
+      margin: .67em 0;
+      font-size: 2em;
+  }
+  * {
+      hyphens: manual;
+      hyphenate-limit-chars: auto 6;
+      hyphenate-limit-lines: 4;
+      -webkit-hyphens: manual;
+  }
+  * {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  :-webkit-any(article, aside, nav, section) h1 {
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+  }
+  user agent stylesheet
+  h1 {
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  body {
+      color: #000;
+      background-color: #000;
+      font-family: Public Sans,sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.5;
+  }
+  body {
+      min-height: 100%;
+      color: #333;
+      background-color: #fff;
+      margin: 0;
+      font-family: Arial,sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+  }
+  html {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      font-family: sans-serif;
+  }
+  ::selection {
+      background: rgba(47, 255, 0, 0.64);
+  }
+   */

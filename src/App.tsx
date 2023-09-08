@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import HomePage from "./components/HomePage/HomePage";
 import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 import "./App.css";
@@ -84,6 +85,7 @@ function App() {
           aliquam! Sed quis velit repellendus error aut corporis blanditiis,
           fugit ab itaque.
         </p>
+        <HomePage />
       </div>
     </>
   );
