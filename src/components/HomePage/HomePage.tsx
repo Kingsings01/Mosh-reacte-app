@@ -1,4 +1,4 @@
-import NavBar from "../NavBar";
+// import NavBar from "../NavBar";
 import frontnowLogo from "./frontnowLogo.svg";
 import "./HomePage.css";
 
