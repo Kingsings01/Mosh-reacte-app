@@ -1,11 +1,12 @@
-
 function NavBar() {
   return (
     <div className="Nav-bar">
-      <img src="" alt="logo" className="Web-logo" />
-      <button></button>
+      <a href="https://vitejs.dev" target="_blank">
+        <img src="/vite.svg" alt="logo" className="webLogo" />
+      </a>
+      <button className="DemoBtn">Book a Demo</button>
     </div>
-  )
+  );
 }
 
 export default NavBar;
