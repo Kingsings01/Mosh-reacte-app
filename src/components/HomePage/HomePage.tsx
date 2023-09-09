@@ -28,7 +28,9 @@ function HomePage() {
             </p>
             <button className="StartNow-btn">Start Now &#10140;</button>
             <div className="Green-line"></div>
-            <div className="multipleLogo">This is the multiple logo div</div>
+            <div className="multipleLogo">
+              This is one of the multiple logo div
+            </div>
           </div>
         </section>
       </div>
