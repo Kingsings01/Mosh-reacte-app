@@ -32,7 +32,7 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
           </li>
         ))}
       </ul>
-      <button className="More-btn">For More</button>
+      <button className="More-btn">For More &#10140;</button>
     </>
   );
 }

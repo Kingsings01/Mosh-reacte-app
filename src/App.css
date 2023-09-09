@@ -1,11 +1,11 @@
 #root {
   width: 100%;
+  background-color: black;
+  color: white;
   margin: 0 auto;
   text-align: center;
 }
-/* .container {
-  margin-top: 80px;
-} */
+
 .Nav-bar {
   height: 70px;
   width: 100%;
@@ -15,9 +15,16 @@
   padding-top: 12px;
   /* position: fixed; */
 }
-/* .webLogo {
 
-}  */
+.Resources-btn {
+  border: none;
+  color: rgba(255, 255, 255, 0.781);
+  font-weight: 250;
+  font-size: large;
+  cursor: pointer;
+  margin-left: 20px;
+  align-items: center;
+}
 
 .DemoBtn, .More-btn {
   border: none;
@@ -29,7 +36,9 @@
   padding-right: 20px;
 }
 .DemoBtn {
-  margin-left: 80%;
+  align-items: center;
+  align-content: space-between;
+  /* margin-left: 70%; */
   /* display: flexbox;
   align-items: flex-end;
   align-content: end; */
@@ -37,8 +46,8 @@
 .More-btn {
   margin-top: 20px;
 }
-.More-btn:hover {
-  filter: drop-shadow(0 0 2em #28993b);
+.DemoBtn:hover, .More-btn:hover {
+  filter: drop-shadow(0 0 1em #28993b);
 }
 
 

@@ -27,8 +27,9 @@ function HomePage() {
               average order value, and boost customer engagement
             </p>
             <button className="StartNow-btn">Start Now &#10140;</button>
+            <div className="Green-line"></div>
+            <div className="multipleLogo">This is the multiple logo div</div>
           </div>
-          <div className="Green-line">-</div>
         </section>
       </div>
     </>
