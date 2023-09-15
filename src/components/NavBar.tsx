@@ -1,3 +1,6 @@
+// import Blog from "./BlogPage/Blog";
+// import BookADemo from "./BookADemoPage/BookADemo";
+
 function NavBar() {
   return (
     <>
@@ -7,6 +10,8 @@ function NavBar() {
         </a>
         <button className="Resources-btn">Resources</button>
         <button className="DemoBtn">Book a Demo</button>
+        {/* <Blog /> */}
+        {/* <BookADemo /> */}
       </div>
     </>
   );
